@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "ex4.py", line 8, in <module>
+    average_passengers_per_car = car_pool_capacity / passenger
+NameError: name 'car_pool_capacity' is not defined
+
+the varaible with name 'car_pool_capacity ' has not been defined .i.e. no prior assignment has been done to the vasriable 
+and that is used for calculation of another varaible which is an error.
+ and one more is that in python we don't have an implicit declaration for the variable and the assignment made to an varaible tells the type of operation that can be performed on the variable
+ 
+ 
+ floating point variables are generally use to preserve the precision value during the division operation. not all the numbers are multiples of the others so that always they result in a integer.
+ 
